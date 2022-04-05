@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tirgul5-solution:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tirgul5-solution</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tirgul5-solution-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="tirgul5-solution:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="glassfish.javax.json" />
+          <element id="library" level="project" name="google.code.gson" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
