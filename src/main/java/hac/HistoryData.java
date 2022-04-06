@@ -15,11 +15,11 @@ public class HistoryData {
         lastResult = 0;
     }
 
-    public void  addHistory(String s) {
+    public synchronized void  addHistory(String s) {
         history.add(s);
     }
 
-    public void setLastResult(int r) {
+    public synchronized void  setLastResult(int r) {
         lastResult = r;
     }
 

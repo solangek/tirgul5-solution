@@ -29,6 +29,7 @@ public class History extends HttpServlet {
             // get jsondata from servlet context
             HistoryData jsonData = (HistoryData) getServletContext().getAttribute("jsonData");
 
+            // build a string of the last computation
             String op = request.getParameter("left") + "+" + request.getParameter("right") + "=" + request.getAttribute("result");
             jsonData.addHistory(op);
             // this won't really work for multiple users - what is wrong with this solution?

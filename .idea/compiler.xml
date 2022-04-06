@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tirgul5-solution" />
+        <module name="tirgul7-solution" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="tirgul5-solution" target="1.8" />
+      <module name="tirgul7-solution" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
